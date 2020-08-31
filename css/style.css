@@ -1,0 +1,33 @@
+body {
+  padding: 60px;
+  /*background-color: #ebe9e7;*/
+  background-color: #f2ede9;
+  /*background-color: #fcf7f3;*/
+}
+
+.notes {
+  padding: 50px 0;
+}
+
+.note {
+  border: none;
+  background-color: #f2ede9;
+  box-shadow:
+    3px 3px 7px 0 rgba(0, 0, 0, 0.25),
+    -3px -3px 7px 0 rgba(255, 255, 255, 0.3);
+  border-radius: none;
+  padding: 10px 20px;
+}
+
+.note p {
+  color: #26a69a;
+}
+
+.note a i {
+  line-height: 2.2;
+  cursor: pointer;
+}
+
+.warning {
+  color: #e53935;
+}
