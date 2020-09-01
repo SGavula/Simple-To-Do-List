@@ -2,8 +2,6 @@
 
   include("db.php");
 
-  print_r($_POST["note"]);
-
   $note = $_POST["note"];
 
   $sql = "DELETE FROM notes WHERE note = '$note'";
