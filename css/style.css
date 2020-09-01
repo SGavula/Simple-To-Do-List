@@ -19,16 +19,6 @@ body {
   padding: 10px 20px;
 }
 
-/*.note:hover {
-  border: none;
-  background-color: #f2ede9;
-  box-shadow:
-    3px 3px 7px 0 rgba(0, 0, 0, 0.25),
-    -3px -3px 7px 0 rgba(255, 255, 255, 0.3);
-  border-radius: none;
-  padding: 10px 20px;
-}*/
-
 .note p {
   color: #26a69a;
 }
@@ -36,6 +26,11 @@ body {
 .note a i {
   line-height: 2.2;
   cursor: pointer;
+  transition: all .2s ease-in;
+}
+
+.note a i:hover {
+  color: #e53935;
 }
 
 .warning {
