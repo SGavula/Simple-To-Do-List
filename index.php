@@ -16,7 +16,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Your favorite task list</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Compiled and minified CSS -->
@@ -51,5 +51,6 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/ajax.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
