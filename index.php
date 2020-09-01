@@ -29,7 +29,10 @@
     <div class="container">
 
       <form class="submit-form" action="php/add.php" method="post">
-        <input type="text" id="text" name="message" placeholder="Here, you can write your task">
+        <div class="input-field">
+          <input type="text" id="text" name="message" class="validate">
+          <label for="text">Here, you can write your task</label>
+        </div>
         <p class="warning"></p>
         <button class="btn waves-effect waves-light" type="submit" name="submit">Submit</button>
       </form>
