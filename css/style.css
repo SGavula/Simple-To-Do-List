@@ -36,3 +36,14 @@ body {
 .warning {
   color: #e53935;
 }
+
+@media(max-width: 600px) {
+  .note {
+    width: 100%;
+    text-align: center;
+  }
+
+  .note p {
+    font-size: 30px;
+  }
+}
